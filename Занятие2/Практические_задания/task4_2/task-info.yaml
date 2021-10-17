@@ -1,41 +1,46 @@
 type: output
 files:
+- name: tests/output.txt
+  visible: false
+  text: |
+    Минимальный элемент = -1 находится по индексу 6
+  learner_created: false
 - name: main.py
   visible: true
   placeholders:
   - offset: 162
-    length: 66
+    length: 68
     placeholder_text: '...  # TODO чему равен индекс предполагаемого минимального
       элемента?'
     initial_state:
       length: 68
       offset: 162
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: 0
-  - offset: 282
-    length: 18
+  - offset: 284
+    length: 39
     placeholder_text: '...:  # TODO как перебрать все индексы?'
     initial_state:
       length: 39
       offset: 284
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: 'range(len(list_)):'
-  - offset: 325
-    length: 8
+  - offset: 348
+    length: 52
     placeholder_text: '...  # TODO как получить текущий элемент по индексу?'
     initial_state:
       length: 52
       offset: 348
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: list_[i]
-  - offset: 345
-    length: 64
+  - offset: 412
+    length: 41
     placeholder_text: '...:  # TODO  какое сравнение используем?'
     initial_state:
       length: 41
@@ -63,13 +68,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-- name: tests/output.txt
-  visible: false
-  text: |
-    Минимальный элемент = -1 находится по индексу 6
-  learner_created: false
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 14 Oct 2021 16:10:35 UTC
+  time: Sun, 17 Oct 2021 12:21:46 UTC
 record: -1

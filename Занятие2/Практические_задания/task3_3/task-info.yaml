@@ -1,10 +1,15 @@
 type: output
 files:
+- name: tests/output.txt
+  visible: false
+  text: |
+    "Утро!!!"
+  learner_created: false
 - name: main.py
   visible: true
   placeholders:
-  - offset: 15
-    length: 54
+  - offset: 14
+    length: 43
     placeholder_text: '...:  # ToDo условие проверки времени суток'
     initial_state:
       length: 43
@@ -22,13 +27,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-- name: tests/output.txt
-  visible: false
-  text: |
-    "Утро!!!"
-  learner_created: false
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 14 Oct 2021 15:37:42 UTC
+  time: Sun, 17 Oct 2021 12:19:17 UTC
 record: -1

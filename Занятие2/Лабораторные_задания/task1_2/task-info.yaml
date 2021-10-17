@@ -4,13 +4,13 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 164
+    length: 6
     placeholder_text: '# TODO'
     initial_state:
       length: 6
       offset: 0
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |
       a = int(input('Введите число A'))
@@ -25,7 +25,5 @@ files:
   visible: false
   learner_created: false
 status: Solved
-feedback:
-  time: Thu, 14 Oct 2021 16:36:48 UTC
 record: -1
 post_submission_on_open: true

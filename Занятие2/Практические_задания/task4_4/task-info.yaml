@@ -4,13 +4,13 @@ files:
   visible: true
   placeholders:
   - offset: 35
-    length: 55
+    length: 61
     placeholder_text: '# TODO заменить значение 5-го элемента средним арифметическим'
     initial_state:
       length: 61
       offset: 35
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: list_numbers[4] = sum(list_numbers) / len(list_numbers)
   text: |
@@ -24,7 +24,5 @@ files:
   visible: false
   learner_created: false
 status: Solved
-feedback:
-  time: Thu, 14 Oct 2021 16:16:51 UTC
 record: -1
 post_submission_on_open: true

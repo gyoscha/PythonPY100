@@ -1,16 +1,16 @@
 type: output
 files:
-- name: __init__.py
+- name: tests/output.txt
   visible: false
   learner_created: false
-- name: tests/output.txt
+- name: __init__.py
   visible: false
   learner_created: false
 - name: main.py
   visible: true
   placeholders:
   - offset: 208
-    length: 183
+    length: 202
     placeholder_text: |-
       # TODO заменить на enumerate
           for i in range(len(list_)):
@@ -49,7 +49,7 @@ files:
 status: Failed
 feedback:
   message: Incorrect
-  time: Thu, 14 Oct 2021 17:24:30 UTC
+  time: Sun, 17 Oct 2021 13:16:45 UTC
   actual: |
     Минимальный элемент = -1 находится по индексу 6
 record: -1

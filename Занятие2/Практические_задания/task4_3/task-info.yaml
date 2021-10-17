@@ -1,38 +1,5 @@
 type: output
 files:
-- name: main.py
-  visible: true
-  placeholders:
-  - offset: 107
-    length: 33
-    placeholder_text: '...:  # TODO как за один раз получать пару индекс-значение?'
-    initial_state:
-      length: 59
-      offset: 107
-    initialized_from_dependency: false
-    selected: true
-    status: Solved
-    encrypted_possible_answer: 'enumerate(rus_alphabet, start=1):'
-  - offset: 155
-    length: 56
-    placeholder_text: '..., value)  # TODO как тогда должен выглядеть индекс?'
-    initial_state:
-      length: 54
-      offset: 181
-    initialized_from_dependency: false
-    selected: true
-    status: Solved
-    encrypted_possible_answer: index, value)
-  text: |
-    if __name__ == "__main__":
-        rus_alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя"
-
-        for index, value in ...:  # TODO как за один раз получать пару индекс-значение?
-            print(..., value)  # TODO как тогда должен выглядеть индекс?
-  learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
@@ -70,8 +37,41 @@ files:
     32 ю
     33 я
   learner_created: false
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 107
+    length: 60
+    placeholder_text: '...:  # TODO как за один раз получать пару индекс-значение?'
+    initial_state:
+      length: 59
+      offset: 107
+    initialized_from_dependency: false
+    selected: false
+    status: Solved
+    encrypted_possible_answer: 'enumerate(rus_alphabet, start=1):'
+  - offset: 182
+    length: 54
+    placeholder_text: '..., value)  # TODO как тогда должен выглядеть индекс?'
+    initial_state:
+      length: 54
+      offset: 181
+    initialized_from_dependency: false
+    selected: false
+    status: Solved
+    encrypted_possible_answer: index, value)
+  text: |
+    if __name__ == "__main__":
+        rus_alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя"
+
+        for index, value in ...:  # TODO как за один раз получать пару индекс-значение?
+            print(..., value)  # TODO как тогда должен выглядеть индекс?
+  learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 14 Oct 2021 16:14:34 UTC
+  time: Sun, 17 Oct 2021 12:23:04 UTC
 record: -1

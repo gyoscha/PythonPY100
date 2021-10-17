@@ -1,10 +1,15 @@
 type: output
 files:
+- name: tests/output.txt
+  visible: false
+  text: |
+    True
+  learner_created: false
 - name: main.py
   visible: true
   placeholders:
   - offset: 12
-    length: 47
+    length: 41
     placeholder_text: '...  # TODO Запишите логическое выражение'
     initial_state:
       length: 41
@@ -13,8 +18,8 @@ files:
     selected: false
     status: Solved
     encrypted_possible_answer: 20 != 100
-  - offset: 67
-    length: 9
+  - offset: 61
+    length: 3
     placeholder_text: '...'
     initial_state:
       length: 3
@@ -31,13 +36,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-- name: tests/output.txt
-  visible: false
-  text: |
-    True
-  learner_created: false
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 14 Oct 2021 15:20:24 UTC
+  time: Sun, 17 Oct 2021 12:16:31 UTC
 record: -1

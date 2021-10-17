@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 21
-    length: 166
+    length: 70
     placeholder_text: '# TODO напишите с помощью if-elif-else условие проверки скорости
       ветра'
     initial_state:
       length: 70
       offset: 21
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: '# TODO'
   text: |
@@ -23,7 +23,5 @@ files:
   visible: false
   learner_created: false
 status: Solved
-feedback:
-  time: Thu, 14 Oct 2021 15:47:17 UTC
 record: -1
 post_submission_on_open: true

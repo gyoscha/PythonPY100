@@ -1,22 +1,22 @@
 type: output
 files:
-- name: __init__.py
+- name: tests/output.txt
   visible: false
   learner_created: false
-- name: tests/output.txt
+- name: __init__.py
   visible: false
   learner_created: false
 - name: main.py
   visible: true
   placeholders:
   - offset: 576
-    length: 81
+    length: 38
     placeholder_text: '# TODO распечатать фамилии и их номера'
     initial_state:
       length: 38
       offset: 576
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Failed
     encrypted_possible_answer: '# TODO'
   text: |
@@ -54,7 +54,7 @@ files:
 status: Failed
 feedback:
   message: Incorrect
-  time: Thu, 14 Oct 2021 16:55:38 UTC
+  time: Sun, 17 Oct 2021 12:26:45 UTC
   actual: |
     1 Иванов
     2 Васильев

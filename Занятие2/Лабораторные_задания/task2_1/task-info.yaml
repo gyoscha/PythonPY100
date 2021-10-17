@@ -1,20 +1,28 @@
 type: output
 files:
+- name: tests/output.txt
+  visible: false
+  text: |
+    *
+    **
+    ***
+    ****
+  learner_created: false
 - name: main.py
   visible: true
   placeholders:
   - offset: 46
-    length: 39
+    length: 31
     placeholder_text: '...  # TODO количество ступеней'
     initial_state:
       length: 31
       offset: 46
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: 4
-  - offset: 99
-    length: 60
+  - offset: 91
+    length: 51
     placeholder_text: '...:  # TODO как получить последовательность чисел?'
     initial_state:
       length: 51
@@ -23,14 +31,14 @@ files:
     selected: false
     status: Solved
     encrypted_possible_answer: 'range(1, count_stairs + 1):'
-  - offset: 173
-    length: 32
+  - offset: 156
+    length: 28
     placeholder_text: '(...)  # TODO печать ступени'
     initial_state:
       length: 28
       offset: 156
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: ("*" * i)
   text: |
@@ -42,16 +50,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-- name: tests/output.txt
-  visible: false
-  text: |
-    *
-    **
-    ***
-    ****
-  learner_created: false
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 14 Oct 2021 16:45:54 UTC
+  time: Sun, 17 Oct 2021 12:24:49 UTC
 record: -1

@@ -1,10 +1,13 @@
 type: output
 files:
+- name: tests/output.txt
+  visible: false
+  learner_created: false
 - name: main.py
   visible: true
   placeholders:
-  - offset: 160
-    length: 204
+  - offset: 164
+    length: 33
     placeholder_text: '# TODO Распечатать строку лесенкой'
     initial_state:
       length: 34
@@ -22,14 +25,20 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-- name: tests/output.txt
-  visible: false
-  learner_created: false
 status: Failed
 feedback:
   message: Incorrect
-  time: Thu, 14 Oct 2021 17:12:59 UTC
-  actual: "      H\n       e\n        l\n         l\n          o\n           ,\n \
-    \            \n             w\n              o\n               r\n           \
-    \     l\n                 d\n"
+  time: Sun, 17 Oct 2021 12:27:55 UTC
+  actual: |2
+          H
+           e
+            l
+             l
+              o
+               ,
+                w
+                 o
+                  r
+                   l
+                    d
 record: -1
