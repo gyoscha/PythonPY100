@@ -4,13 +4,13 @@ files:
   visible: true
   placeholders:
   - offset: 343
-    length: 27
+    length: 39
     placeholder_text: '...  # TODO вызвать функцию'
     initial_state:
       length: 27
       offset: 343
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: add_func(5, 10)
   text: |
@@ -33,5 +33,7 @@ files:
   visible: false
   learner_created: false
 status: Solved
+feedback:
+  time: Thu, 21 Oct 2021 15:18:52 UTC
 record: -1
 post_submission_on_open: true

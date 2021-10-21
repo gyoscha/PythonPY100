@@ -1,3 +1,7 @@
+def sum_func(epsilon):
+    epsilon = 0.0001
+    while
+
 if __name__ == "__main__":
     # Write your solution here
-    pass
+    print(sum_func())
