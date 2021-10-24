@@ -1,7 +1,7 @@
 def main():
     a = 0
     b = 0
-    count_ = 0
+    count_ = 1
     while (a ** 2 + b ** 2) < 500:
         a += 1
         b += 1

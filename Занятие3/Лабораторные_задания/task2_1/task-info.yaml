@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 29
-    length: 37
+    length: 75
     placeholder_text: '...  # TODO проверка совпадения строк'
     initial_state:
       length: 37
       offset: 29
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       if str1[:k] == str2[:k]:
               print('ДА')
@@ -28,6 +28,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  time: Sun, 24 Oct 2021 20:04:39 UTC
 record: -1
 post_submission_on_open: true

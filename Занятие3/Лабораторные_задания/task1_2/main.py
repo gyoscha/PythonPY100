@@ -7,4 +7,4 @@ def factorial(n):
 
 if __name__ == "__main__":
     # Write your solution here
-    print(factorial(10))
+    print(factorial(4))
