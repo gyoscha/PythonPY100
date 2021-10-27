@@ -3,24 +3,24 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 110
-    length: 13
+  - offset: 115
+    length: 28
     placeholder_text: '# TODO посчитать через ключи'
     initial_state:
       length: 28
       offset: 115
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: sum_ = 0
-  - offset: 252
-    length: 66
+  - offset: 229
+    length: 35
     placeholder_text: '# TODO посчитать через метод values'
     initial_state:
       length: 35
       offset: 229
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: print(sum(cart.values()))
   text: |
@@ -42,6 +42,6 @@ files:
   learner_created: false
 status: Solved
 feedback:
-  time: Tue, 26 Oct 2021 15:45:33 UTC
+  time: Wed, 27 Oct 2021 18:10:10 UTC
 record: -1
 post_submission_on_open: true
