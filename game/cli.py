@@ -75,7 +75,7 @@ def get_step(player_symbol: str) -> tuple[int, int]:
 
 
 def print_field(field) -> None:
-    # Можно сохдавать документацию к функции
+    # Можно сохдавать документацию к функции.
     '''
 
     :param field:
