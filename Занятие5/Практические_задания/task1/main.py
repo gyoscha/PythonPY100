@@ -1,11 +1,13 @@
 if __name__ == "__main__":
+
+    count_row = 10
+    count_col = 10
     matrix = [
-        [1, 2, 3],
-        [4, 5, 6],
-        [7, 8, 9]
+        [i * j for j in range(1, count_col)]  # i - строка, j - столбец
+        for i in range(1, count_row)
     ]
 
-    for row in range(len(matrix)):
-        for col in range(len(matrix[0])):
-            print(matrix[row][col], end=" ")
+    for row in range(len(matrix)):   # строки в матрице (получаем идекс строки)
+        for col in range(len(matrix[0])):   # столбцы. Всегда сначала идут строки
+            print(f'{matrix[row][col]:2}', end=" ")
         print()

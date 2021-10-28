@@ -4,13 +4,13 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 6
+    length: 388
     placeholder_text: '# TODO'
     initial_state:
       length: 6
       offset: 0
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: |-
       def get_count_char(str_):
@@ -43,6 +43,6 @@ files:
   learner_created: false
 status: Solved
 feedback:
-  time: Wed, 27 Oct 2021 18:42:35 UTC
+  time: Tue, 26 Oct 2021 18:21:13 UTC
 record: -1
 post_submission_on_open: true
