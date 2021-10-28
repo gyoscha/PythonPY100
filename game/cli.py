@@ -69,6 +69,8 @@ def get_step(player_symbol: str) -> tuple[int, int]:
             print('Неверные координата Y')
             continue
 
+# todo добавить проверку занята ли ячейка!!! Есть уже функция
+
         return x-1, y-1   # чтобы дальше использовать индексы с 0
 
 
