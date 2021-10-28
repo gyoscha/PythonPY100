@@ -75,6 +75,12 @@ def get_step(player_symbol: str) -> tuple[int, int]:
 
 
 def print_field(field) -> None:
+    # Можно сохдавать документацию к функции
+    '''
+
+    :param field:
+    :return:
+    '''
     for row in field:
         for ceil in row:
             print(ceil, end='')
